@@ -46,7 +46,7 @@ try:
 
     for query in create_tables_queries:
         cursor.execute(query)
-        print(f"Executed query: {query.splitlines()[0]}")  # Print the first line of the query for clarity
+        print(f"Executed query: {query.splitlines()[0]}")
 
     connection.commit()
     print("Tables created successfully.")

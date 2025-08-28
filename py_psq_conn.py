@@ -29,3 +29,4 @@ finally:
     if 'connection' in locals():
         connection.close()
     print("Database connection closed.")
+    
